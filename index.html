@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body{
+            font-family: Arial;
+        }
+        legend{
+            font-size: 60px;
+        }
+        .body{
+            height: 1100px;
+            width: 100px;
+            background-color: aquamarine;
+        }
+        fieldset{
+            width: 500px;
+            position: absolute;
+            left: 35%;
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body class="body">
+    <form action="Free code camp.html" method="POST">
+        <fieldset>
+            <div>
+        <legend>Test</legend>
+    <label for="name"><b>Name</b></label>
+    <input type="text" placeholder="Write your name." name="name" id="name">
+    <br>
+    <label for="class"><b>Class</b></label>
+    <input type="text" placeholder="Write your class" name="class" id="class">
+    <br>
+    <p><b>What is your age group</b></p>
+    <input type="radio" name="Age" id="" value="5+"><b>5+</b>
+    <br>
+    <input type="radio" name="Age" id="" value="10+"><b>10+</b>
+    <br>
+    <input type="radio" name="Age" id="" value="13+"><b>13+</b>
+    <br>
+    <input type="radio" name="Age" id="" value="18+"><b>18+</b>
+    <br>
+    <input type="radio" name="Age" id="" value="20+"><b>20+</b>
+    <br>
+    <br>
+    <label for="paragraph"><b>Write a paragraph on trees</b></label>
+    <br>
+    <br>
+    <textarea placeholder="Write the paragraph in me." name="paragraph" id="paragraph" cols="30" rows="10"></textarea>
+    <br>
+    <p><b>What is your favourite coding language?</b></p>
+    <input type="radio" name="coding" id="" value="Javascript"><b>Javascript</b>
+    <br>
+    <input type="radio" name="coding" id="" value="Python"><b>Python</b>
+    <br>
+    <input type="radio" name="coding" id="" value="HTML"><b>HTML</b>
+    <br>
+    <input type="radio" name="coding" id="" value="CSS"><b>CSS</b>
+    <p><b>Tick the extinct animals</b></p>
+    <input type="checkbox" value="Quagga" name="Animals" id=""><b>Quagga</b>
+    <br>
+    <input type="checkbox" value="Passanger pigeon" name="Animals" id=""><b>Passanger pigeon</b>
+    <br>
+    <input type="checkbox" value="Lion" name="Animals" id=""><b>Lion</b>
+    <br>
+    <input type="checkbox" value="Tiger" name="Animals" id=""><b>Tiger</b>
+    <br>
+    <p><b>Select the question & answer it.</b></p>
+    <select name="Questions" id="">
+        <option value="What is a noun?"><b>What is a noun?</b></option>
+        <option value="What is a pronoun?"><b>What is a pronoun?</b></option>
+        <option value="What are adjectives?"><b>What are adjectives?</b></option>
+        <option value="How many letters are there in English alphabets?"><b>How many letters are there in English alphabets?</b></option>
+    </select>
+    <br>
+    <textarea placeholder="Write the answer." name="" id="" cols="40" rows="5"></textarea>
+    <br>
+    <p><b>What are improper fractions</b></p>
+    <textarea placeholder="Write the definition." name="" id="" cols="40" rows="5"></textarea>
+    <br>
+    <br>
+    <input value="Submit" type="submit" >
+</fieldset>
+</div>
+    </form>
+</body>
+</html>
